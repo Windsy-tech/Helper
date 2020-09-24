@@ -1,3 +1,7 @@
+# Github Cheatsheet
+
+Follw these steps when you are pushing the code for the first time to your Github repository.
+
 To start using Git from your computer, you’ll need to enter your credentials (user name and email) to identify you as the author of your work. The user name and email should match the ones you’re using on GitLab.
 
 In your shell, add your user name:
