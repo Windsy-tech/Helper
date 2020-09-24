@@ -6,18 +6,24 @@ To start using Git from your computer, you’ll need to enter your credentials (
 
 In your shell, add your user name:
 
-` git config --global user.name "your_username" `
+```
+git config --global user.name "your_username" 
+```
 
 And your email address:
 
-` git config --global user.email "your_email_address@example.com" `
+```
+git config --global user.email "your_email_address@example.com" 
+```
 
 # Convert a local directory into a repository
 
 When you have your files in a local folder and want to convert it into a repository, you’ll need to initialize the folder through the git init command. This will instruct Git to begin to track that directory as a repository. To do so, open the terminal on the directory you’d like to convert and run:
 
 
-` git init `
+``` 
+git init 
+```
 
 This command creates a .git folder in your directory that contains Git records and configuration files.
 
@@ -28,13 +34,19 @@ git add .
 ```
 # Add all changes to commit
 
-` git commit -m "COMMENT TO DESCRIBE THE INTENTION OF THE COMMIT" `
+``` 
+git commit -m "COMMENT TO DESCRIBE THE INTENTION OF THE COMMIT" 
+```
 
 # Send changes to Github
 To push all local commits (saved changes) to the remote repository:
 
-`git push <remote> <name-of-branch> `
+```
+git push <remote> <name-of-branch> 
+```
 
 To push your local commits to the master branch of the origin remote:
 
-`git push origin master`
+```
+git push origin master
+```
